@@ -1,0 +1,31 @@
+{
+  "name": "koa-format",
+  "version": "0.1.0",
+  "description": "A koa middleware format `this.request` and `this.response`.",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --harmony ./test/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nswbmw/koa-format"
+  },
+  "keywords": [
+    "koa",
+    "format",
+    "filter"
+  ],
+  "dependencies": {
+    "flat": "^1.5.0",
+    "methods": "^1.1.1",
+    "path-to-regexp": "1.0.3",
+    "object-path": "~0.9.0"
+  },
+  "devDependencies": {
+    "supertest": "*",
+    "validator": "*",
+    "koa": "*",
+    "koa-bodyparser": "*"
+  }
+}
